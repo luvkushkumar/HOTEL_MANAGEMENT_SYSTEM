@@ -1,0 +1,15 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: HotelService
+  datasource:
+    url: jdbc:mysql://localhost:3306/hotelService
+    username: root
+    password: Punjab@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
