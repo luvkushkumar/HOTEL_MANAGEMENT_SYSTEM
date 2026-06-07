@@ -28,6 +28,8 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.CREATED).body(user1);
     }
 
+
+    //fetches single user
     @GetMapping("/{userId}")
     public ResponseEntity<User> getSingleUser(@PathVariable  String userId)
     {
