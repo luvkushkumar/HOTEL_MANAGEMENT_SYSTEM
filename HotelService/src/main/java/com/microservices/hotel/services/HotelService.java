@@ -1,6 +1,6 @@
 package com.microservices.hotel.services;
 
-import com.microservices.hotel.HotelServiceApplication;
+
 import com.microservices.hotel.entities.Hotel;
 
 import java.util.List;

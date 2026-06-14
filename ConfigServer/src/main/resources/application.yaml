@@ -1,0 +1,18 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: ConfigServer
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luvkushkumar/HOTEL_MANAGEMENT_SYSTEM.git
+          clone-on-start: true
+
+
+
+
+
+
