@@ -16,7 +16,7 @@ public class UserServiceApplication {
 		app.setBanner((environment, sourceClass, out) -> {
 			out.println("🔥 USER SERVICE APPLICATION 🔥");
 		});
-		app.run(args);
+		app.run(args); 	
 	}
 
 
